@@ -1,0 +1,48 @@
+# -------------------------------------------
+# Modify the holiday class to 
+# 1. Only accept Datetime objects for date.
+# 2. You may need to add additional functions
+# 3. You may drop the init if you are using @dataclasses
+# --------------------------------------------
+
+# I will first create a holiday class:
+# I will define "init" and "str" in there.
+
+# -------------------------------------------
+# The HolidayList class acts as a wrapper and container
+# For the list of holidays
+# Each method has pseudo-code instructions
+# --------------------------------------------
+
+# Within the HolidayList class I create:
+
+# I will have my init method with an empty array.
+
+# Then I will have an add holiday method where the user inputs the holiday name and year.
+
+# Then I will have a findHoliday method where the user can find a specific holiday through the year, month, and day.
+
+# Then I will have a removeHoliday method that uses the findHolidays method to remove a holiday.
+
+# Then I will have a read_json method that read in the scrapped holiday list and JSON list.
+
+# Then I have a method called save_to_json where you can save every holiday that you have added.
+
+# Then I have a scrapHolidays method where I scrape the two previous years, current year, and 2 years into the future from
+# the website provided.
+
+# Then I will have a getting_HTM method that requests all the URL's for the different years I want.
+
+# Then I will have a numHolidays method that counts all of the holidays in my list.
+
+# Then I will have a filter_holidays_by_week method that uses lambda to filter holidays by year and week number (1-52)
+
+    
+# Then I will have another function called displayHolidaysInWeek that displays the holiday list for the given year and week.
+
+
+# I didn't get to scraping weather information.
+
+# Then I have a method that shows you the current week.
+
+# Finally here I will create a function that has the main menu and directs you to the correct function depending on the users input.
